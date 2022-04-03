@@ -1,0 +1,22 @@
+RewriteEngine on
+
+ExpiresActive On
+ExpiresByType image/gif "access plus 2 weeks"
+ExpiresByType image/png "access plus 2 weeks"
+ExpiresByType image/jpeg "access plus 2 weeks"
+ExpiresByType text/css "access plus 2 weeks"
+ExpiresByType text/javascript "access plus 2 weeks"
+ExpiresByType application/x-javascript "access plus 2 weeks"
+ExpiresByType application/x-shockwave-flash "access plus 2 weeks"
+
+RewriteCond %{HTTPS} !^on$
+RewriteRule (.*) https://%{HTTP_HOST}/$1 [R,L]
+
+ErrorDocument 404 /404/index.html
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

@@ -1,0 +1,17 @@
+{% extends "_html.njk" %}
+
+{% from "macros/postListing.njk" import postListing %}
+
+{% block content %}
+<article>
+  {{ content | safe }}
+
+  {% h2br %}Best Of Posts{% endh2br %}
+
+  {% for post in collections.bestOfCollection %}
+    {{ postListing(post, true) }}
+  {% endfor %}
+
+  <p><a class="tag" href="/posts/">All posts &rsaquo;</a></p>
+</article>
+{% endblock %}

@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="alternate" type="application/atom+xml" title="RSS Feed for waleed.de" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="#">   
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Waleed H.Khan">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:domain" content="Waleed H.Khan">
+<meta name="twitter:site" content="@askwaleedkhan">
+
+{% set titleTag = meta_title or title %}
+{% if titleTag %}
+  <title>{{ titleTag }} - Waleed H.Khan</title>
+  <meta property="og:title" content="{{ titleTag }}">
+  <meta name="twitter:title" content="{{ titleTag }}">
+{% endif %}
+
+{% set description = meta_description or excerpt %}
+{% if description %}
+  <meta name="description" content="{{ description }}">
+  <meta name="twitter:description" content="{{ description }}">
+{% endif %}
+
+{% if canonical_link %}
+  <link rel="canonical" href="{{canonical_link}}" />
+{% endif %}
+
+{% if featured_img %}
+  <meta property="og:image" content="https://www.waleed.de{{ featured_img }}">
+  <meta name="twitter:image" content="https://www.waleed.de{{ featured_img }}">
+{% endif %}

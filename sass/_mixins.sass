@@ -1,0 +1,33 @@
+//
+// Responsive utilities
+//
+
+=larger_than_phone()
+	@media (min-width: $b_small)
+		@content
+
+=larger_than_tablet()
+	@media (min-width: $b_medium)
+		@content
+
+//
+// Centered on mobile
+//
+
+=centered_on_phone()
+	text-align: center
+
+	+larger_than_phone
+		text-align: left
+
+//
+// Space reset
+//
+
+=no_space
+	padding: 0
+	margin: 0
+
+=aligncenter
+	max-width: 109%
+	margin: 2em -4.5%

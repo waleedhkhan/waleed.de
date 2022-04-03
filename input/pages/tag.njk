@@ -1,0 +1,48 @@
+---
+eleventyComputed:
+  title: Posts in {{ tag }}
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tag/{{ tag | slug }}/
+---
+
+{% extends "_html.njk" %}
+
+{% from "macros/postListing.njk" import postListing %}
+
+{% block content %}
+  <article>
+    <div class="post-header">
+      <p class=" date">
+        <span>Tagged</span>
+      </p>
+      <div class="title">
+        <h1>{{ tag }}
+          <strong>{{ collections[tag] | length }}</strong>
+        </h1>
+      </div>
+    </div>
+
+    {% markdown %}{%
+      include "../partials/tags/" + tag | slug + ".md" ignore missing
+    %}{% endmarkdown %}
+
+    <p>
+      <a href="/tags/" class="tag">&lsaquo; All tags</a>
+      <a href="/tag/{{ tag | slug }}/rss.xml" class="tag">RSS feed for this tag</a>
+    </p>
+
+    {% set taglist = collections[tag] %}
+    {% for post in taglist | reverse %}
+      {{ postListing(post) }}
+    {% endfor %}
+
+    <p>
+      <a href="/tags/" class="tag">&lsaquo; All tags</a>
+      <a href="/tag/{{ tag | slug }}/rss.xml" class="tag">RSS feed for this tag</a>
+    </p>
+
+  </article>
+{% endblock %}

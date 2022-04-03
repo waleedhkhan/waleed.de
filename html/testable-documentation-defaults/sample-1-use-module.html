@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>sample-1-use-module.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page_wrapper">
+            <div id="jump_page">
+              
+                
+                <a class="source" href="sample-1-use-module copy.html">
+                  sample-1-use-module copy.js
+                </a>
+              
+                
+                <a class="source" href="sample-1-use-module.html">
+                  sample-1-use-module.js
+                </a>
+              
+            </div>
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>sample-1-use-module.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              <p>First, install the <code>jsonwebtoken</code> package (<a href="https://www.npmjs.com/package/jsonwebtoken">npmjs.com</a>):</p>
+<pre><code>$ npm install jsonwebtoken</code></pre>
+<p>Require it at the top of your module:</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">const</span> jwt = <span class="hljs-built_in">require</span>(<span class="hljs-string">&quot;jsonwebtoken&quot;</span>);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>Now, we export a function to do the heavy lifting. </p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeToken</span>(<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>The session token payload includes claims typical of an OpenID Connect ID token.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  <span class="hljs-keyword">const</span> payload = {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>The token audience - <code>aud</code> - indicates <strong>who is meant to consume the token</strong>.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    aud: <span class="hljs-string">&quot;AUDIENCE_ID&quot;</span>,</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <p>The token issuer - <code>iss</code> - indicates <strong>who generated the token</strong>.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    iss: <span class="hljs-string">`https://example.com/`</span>,</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>The token subject - <code>sub</code> - indicates <strong>who the token is meant to represent</strong>.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    sub: <span class="hljs-string">&quot;SUBJECT_ID&quot;</span>,
+  };</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>This function will return a signed JSON Web Token - JWT - using the second 
+parameter below as the signing key. This token will need that same value to 
+check the token signature when validated. It will be obvious to some but the 
+<code>&quot;TOKEN_SECRET&quot;</code> value below should be long, random, and never stored in 
+the code.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  <span class="hljs-keyword">return</span> jwt.sign(payload, <span class="hljs-string">&quot;TOKEN_SECRET&quot;</span>, {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>The <code>jsonwebtoken</code> library can accept plain English time representations.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    expiresIn: <span class="hljs-string">&quot;1 day&quot;</span>,
+  });
+};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p>And there you have it, a function that returns a signed token!</p>
+
+            </div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>

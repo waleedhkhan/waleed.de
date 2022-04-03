@@ -1,0 +1,10 @@
+{% macro postListingSmall(post) %}
+  {% if post.data.permalink %}
+    <div class="card-small">
+      <p class="date"><span>{{ post.date | dateformat }}</span></p>
+      <h3><a href="{{ post.url | safe }}">{{ post.data.title | safe }}</a></h3>
+      <br>
+      <p class="display-tags"><span>{{post.data.tags.join("</span> <span>") | safe}}</span></p>
+    </div>
+  {% endif %}
+{% endmacro %}

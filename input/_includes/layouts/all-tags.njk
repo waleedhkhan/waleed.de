@@ -1,0 +1,24 @@
+---
+title: "All Tags"
+permalink: archives/tags/index.html
+---
+
+
+{% extends "_html.njk" %}
+
+{% block content %}
+  <article>
+    <div class="title">
+      <h1>{{ title }} <strong>{{ collections.allTags | length }}</strong>
+      </h1>
+    </div>
+
+    {{ content | safe }}
+    
+    {% for name, count in collections.allTags %}
+      <a href="/tag/{{ name | slug }}" class="tag">{{ name | safe }}
+        <span>{{ count }}</span>
+      </a>
+    {% endfor %}
+  </article>
+{% endblock %}

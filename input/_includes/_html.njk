@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	{% include "partials/head.njk" %}
+	<link rel="stylesheet" href="/_css/main-v2.css?2021-12-12" type="text/css" media="all">
+</head>
+<body id="top">
+	<main>
+		<header>
+			<p class="logo"><a href="/">{% include 'svg/logo.svg' %}</a></p>
+		</header>
+
+		{% block content %}{% endblock %}
+
+		<footer class="jch-row jch-row__footer">
+			{% h2br %}Footer{% endh2br %}
+			{% include "partials/find-me.html" %}
+			<p>This work is licensed under a
+				<a rel="license" href="https://en.wikipedia.org/wiki/MIT_License">MIT No Attribution License</a>. This means you are free to copy and redistribute the material in any medium or format, and remix, transform, and build upon the material.
+			</p>
+
+		</footer>
+	</main>
+</body>
+</html>
