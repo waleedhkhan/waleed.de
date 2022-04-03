@@ -78,6 +78,8 @@ module.exports = function (eleventyConfig) {
       "pdf",
       "toml",
       "njk",
+      "_redirects",
+      "_",
       "webmanifest",
     ],
     passthroughFileCopy: true,
