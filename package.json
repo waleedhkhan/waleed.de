@@ -15,7 +15,7 @@
     "make:page": "hygen page with-prompt",
     "make:idea": "hygen idea with-prompt"
   },
-  "author": "",
+  "author": "Waleed H.Khan",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
