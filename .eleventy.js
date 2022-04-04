@@ -32,7 +32,6 @@ module.exports = function (eleventyConfig) {
     "images/favicon": "/",
   });
 
-  eleventyConfig.addPassthroughCopy('input/next.config.js');
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
 

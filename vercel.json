@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/resume",
-      "destination": "/about",
+      "source": "/_error",
+      "destination": "/404/index.html",
       "statusCode": 308
     },
     {
