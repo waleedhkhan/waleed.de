@@ -32,6 +32,7 @@ module.exports = function (eleventyConfig) {
     "images/favicon": "/",
   });
 
+  eleventyConfig.addPassthroughCopy('input/_redirects');
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
 
@@ -65,6 +66,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode("bigtext", bigtext);
   eleventyConfig.addPairedShortcode("markdown", markdownRender);
 
+
   return {
     dir: {
       input: "input",
@@ -85,3 +87,4 @@ module.exports = function (eleventyConfig) {
     passthroughFileCopy: true,
   };
 };
+
