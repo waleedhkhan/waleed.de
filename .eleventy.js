@@ -32,7 +32,7 @@ module.exports = function (eleventyConfig) {
     "images/favicon": "/",
   });
 
-  eleventyConfig.addPassthroughCopy('input/_redirects');
+  eleventyConfig.addPassthroughCopy('input/next.config.js');
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
 
@@ -80,8 +80,6 @@ module.exports = function (eleventyConfig) {
       "pdf",
       "toml",
       "njk",
-      "_redirects",
-      "_",
       "webmanifest",
     ],
     passthroughFileCopy: true,
