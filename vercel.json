@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/resume",
+      "destination": "/about",
+      "statusCode": 308
+    },
+    {
+      "source": "waleed",
+      "destination": "about",
+      "statusCode": 308
+    }
+  ]
+}
