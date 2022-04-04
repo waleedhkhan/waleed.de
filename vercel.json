@@ -1,9 +1,9 @@
 {
   "redirects": [
     {
-      "source": "/_error",
+      "source": "/*",
       "destination": "/404/index.html",
-      "statusCode": 308
+      "statusCode": 404
     },
     {
       "source": "waleed",
