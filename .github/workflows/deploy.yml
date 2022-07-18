@@ -31,5 +31,5 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: lume-example
+          project: waleedhkhan-waleed-de
           entrypoint: server/main.ts
