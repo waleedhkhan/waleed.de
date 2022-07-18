@@ -1,2 +1,2 @@
 [build]
-  command = "./src/build.sh"
+  command = "build.sh"
