@@ -25,7 +25,7 @@ Color Properties
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --canvas: hsl(0deg 12% 30%);
+        --canvas: hsl(0deg 14% 21%);
         --on-canvas:  hsl(47deg 100% 89%);
         --on-canvas--dim:  hsl(47deg 100% 89%);
         --on-canvas--mute:  hsl(47deg 100% 89%);

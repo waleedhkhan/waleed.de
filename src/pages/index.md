@@ -1,7 +1,7 @@
 ---
 layout: layouts/index.tmpl.js
 url: /
-title: Waleed's personal website 
+title: Waleed H.Khan 
 subtitle: Software Engineer / Company Builder
 description: Software engineer based in Berlin, involved in designing and operations of large-scale e-commerce systems for more than a decade
 tags: index

@@ -17,7 +17,7 @@ tags: profile
 
 <section>
 
-![Image of me](/assets/img/waleed.jpeg)
+![Image of me](https://res.cloudinary.com/dm9gvqa1t/image/upload/v1658180574/waleed.de/IMG_3855_2_iwf7s8.jpg)
 
 Hi, I'm [Waleed](/about/), software engineer, entrepreneur and angel investor. Specialising in design and operations of large-scale e-commerce systems for more than a decade.
 

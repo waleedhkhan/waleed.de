@@ -34,20 +34,24 @@ On this page you will find what Hardware and Software I am currently using. I us
 </section><section>
 
 ## Software
+Code Editor
+~ VS Code
+~ IntelliJ IDE
 
-**Atom** is my main code editor. The moment I used it for the first time I fell in love with it. It is minimalistic, yet allows to be extended in every possible way with plug-ins. I tried innovative code editors like Vim and full IDEs like VS Code---as much as they bring value I always come back to the simplistic Atom. Additionally, it works well in conjunction with GitHub Desktop. The only modifications I use is a default font (JetBrains Mono) and the Prettier package.
+Notes
+~ logseq (knowledge base)
+~ Things Mac/IOS (Todo List)
+~ Apple Notes (Long Living Notes)
 
-**GitHub & GitHub Desktop** is my main way to organise and version tech projects. As much as I like using the Terminal to look like a hacker---Github Desktop makes using Git intuitive and straightforward. It is just so simple to change branches and to browse commits. I also use it to launch projects in Atom and Terminal. For me, it is much faster than 'cd-ing' to a project folder in my Terminal. Also, GitHub evolved a lot with amazing collaboration tools. I can see a future where GitHub becomes the main driver of organisations.
+**GitHub & GitHub Desktop** 
 
 **Dropbox** is where I store my important files. It is cross-platform, worked reliably for ages and is easy to use.
 
-**Lastpass** is where I store my critical credentials. Using a Password Manager takes a lot of load from my brain. I also use it to store some important documents like my vaccination pass so that I can access them in case someone steals my purse on a trip.
-
-**YouTube Music** is what I use to listen to music. It works on all platforms and finds almost all songs I like. I can even use it on a Google Home device as a voice-controlled kitchen radio and I can access it in an incognito window on my work laptop.
+**1Password** is where I store my critical credentials.
 
 **Audible** is what I use for audiobooks. I desire to find an alternative, but it just has all the audiobooks I want to listen to.
 
-**Chrome, Safari and Firefox** are all in use for testing purposes. I would love to use Safari as my primary browser. Unfortunately the developer console, extensions and reliability can't compare to Chrome, so I tend to fall back to Chrome every time I try something else. My default extensions are Adblock Plus, Distraction-Free YouTube and Grammarly. This combination makes browsing the web just 100% better.
+**Chrome, Safari and Firefox** are all in use for testing purposes. I would love to use Safari as my primary browser.
 
 </section><footer>
 
