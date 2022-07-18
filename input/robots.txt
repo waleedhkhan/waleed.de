@@ -1,4 +1,0 @@
-Sitemap: https://www.waleed.de/sitemap.xml
-
-User-agent: *
-Disallow: /dear-mom/

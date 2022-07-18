@@ -1,0 +1,39 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "@id": "https://www.waleed.de/about",
+    "url": "https://waleed.de/about/",
+    "name": "Waleed H.Khan",
+    "familyName": "Hussain",
+    "givenName": "Waleed",
+    "email": "hello@waleed.de",
+    "image": "https://www.waleed.de/assets/img/waleed.jpeg",
+    "description": "Software engineer based in Berlin, involved in designing and operations of large-scale e-commerce systems for more than a decade",
+    "jobTitle": "CTO",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin, Germany",
+        "postalCode": "10117",
+        "streetAddress": "Beuthstr. 13"
+    },
+    "alumniOf": "International University Vienna",
+    "birthPlace": "Karachi, Pakistan",
+    "height": "170 cm",
+    "gender": "male",
+    "nationality": "Austrian",
+    "sameAs": [
+        "https://www.linkedin.com/in/waleedhk/",
+        "https://twitter.com/askwaleedkhan",
+        "https://github.com/waleedhkhan"
+    ],
+    "worksFor": "https://www.preis.de/",
+    "x": {
+        "social": {
+            "default": "waleedhkhan",
+            "twitter": "@askwaleedkhan",
+            "github": "waleedhkhan",
+            "linkedin": "waleedhk"
+        },
+        "vatID": "DE"
+    }
+}

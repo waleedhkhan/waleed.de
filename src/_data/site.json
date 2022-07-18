@@ -1,0 +1,26 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "@id": "https://www.waleed.de/#website",
+    "url": "https://waleed.de/",
+    "name": "Waleed's personal website",
+    "description": "Software engineer based in Berlin, involved in designing and operations of large-scale e-commerce systems for more than a decade",
+    "author": {
+        "@type": "Person",
+        "@id": "https://www.waleed.de/about",
+        "name": "Waleed H.Khan",
+        "url": "https://www.waleed.de/about/"
+    },
+    "mainEntity": {
+        "@type": "Person",
+        "@id": "https://www.waleed.de/about",
+        "name": "Waleed H.Khan",
+        "url": "https://www.waleed.de/about"
+    },
+    "x": {
+        "domain": "waleed.de",
+        "shortname": "ts",
+        "locale": "en",
+        "direction": "ltr"
+    }
+}
