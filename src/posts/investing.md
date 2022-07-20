@@ -1,7 +1,7 @@
 ---
 title: Investing
-description: Reseting my blog/website
-date: 2022-07-15
+description: I somtimes invest in early-stage technology startups.
+date: 2021-12-15
 ---
 
 <header>
@@ -12,7 +12,7 @@ date: 2022-07-15
 
 </header><section>
 
-I invest in early-stage technology startups, mostly via €30K-€50K checks. I’ll look at anything, but especially B2B SaaS, e-commerce, future of work, video, and developer tools.
+I somtimes invest in early-stage technology startups, mostly via €30K-€50K checks. I’ll look at anything, but especially B2B SaaS, e-commerce, future of work, video, and developer tools.
 
 
 ## Basic requirement
