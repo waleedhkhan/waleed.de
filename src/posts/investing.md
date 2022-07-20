@@ -31,15 +31,15 @@ That’s it! You’ll most likely hear back in less than 48 hours if it’s an e
 ## After investing
 Honestly, most investors don't do much. It's mostly the money and how it looks for other investors, prospective candidates, and potential customers. That said, I can:
 
-✅ Answer any questions you have (things I like helping with and contact info below) about really anything at all
-✅ Give you access to a bunch of alive documents
-✅ Get you $100,000 in AWS credits
-✅ Get out of your way!##
+- Answer any questions you have (things I like helping)
+- Give you access to a bunch of alive documents
+- Get you $100,000 in AWS credits
+- Get out of your way!##
 
 ## I love helping with
-✅ High-fidelity product design und development and high-level product strategy
-✅ Launch/marketing/distribution strategy
-✅ Does not help with: sourcing candidates
+- High-fidelity product design und development and high-level product strategy
+- Launch/marketing/distribution strategy
+- Does not help with: sourcing candidates
 
 ### Top recommendations for founders
 Startups succeed as long as they don't fail. How not to fail:

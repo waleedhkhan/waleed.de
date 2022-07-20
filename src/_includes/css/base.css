@@ -157,15 +157,10 @@ dl dd::before {
 }
 
 ul {
-    list-style: disc;
+    list-style: circle;
+    list-style-position: inside;
 }
 
-ul ::marker {
-    content: '• ';
-    color: var(--on-canvas--mute);
-    padding-inline-start: calc(var(--gap) / 2);
-    margin-inline-start: calc(var(--gap) * -0.5);
-}
 
 ol {
     display: grid;
