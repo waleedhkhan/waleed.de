@@ -3,7 +3,7 @@ url: /now/
 title: Now
 subtitle: What I'm currently doing
 description: What Im currently doing
-date: 2022-17-18
+date: 2022-07-21
 tags: now
 ---
 

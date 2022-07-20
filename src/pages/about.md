@@ -57,7 +57,7 @@ Based on many years of working experience in international companies I am fluent
 
 </section><footer>
 
-_[Here](/now/) you can find what I am working on right now. On my [uses](/uses/) page you can find out what equipment and software I use. My full CV is available on [LinkedIn](https://www.linkedin.com/in/{{author.x.social.linkedin}}). Please [reach out][Email] in case you would like to receive my CV in a formatted way._
+_[Here](/now/) you can find what I am working on right now. On my [uses](/uses/) page you can find out what equipment and software I use. My full CV is available on [LinkedIn](https://www.linkedin.com/in/{{author.x.social.linkedin}})._
 
 </footer>
 
