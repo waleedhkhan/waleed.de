@@ -1,6 +1,6 @@
 export default ({title, description, site, author, tags}) => `
 <!-- Meta -->
-<title>${title} | ${author?.name}</title>
+<title>${title} | ${author?.website}</title>
 <meta name="title" content="${title} | ${author?.name}" />
 <meta name="description" content="${description}" />
 <meta name="keywords" content="${tags}" />

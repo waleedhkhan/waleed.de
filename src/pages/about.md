@@ -3,7 +3,7 @@ url: /about/
 title: About
 subtitle: Waleed H.Khan
 description: Software engineer based in Berlin, involved in designing and operations of large-scale e-commerce systems for more than a decade.
-date: 2021-09-16
+date: 2022-07-20
 tags: profile
 ---
 
@@ -17,9 +17,10 @@ tags: profile
 
 <section>
 
-![Image of me](https://res.cloudinary.com/dm9gvqa1t/image/upload/v1658180574/waleed.de/IMG_3855_2_iwf7s8.jpg)
+<div class="grayscale-image">
+<img style="padding:6rem; background:#eee;" src="https://res.cloudinary.com/dm9gvqa1t/image/upload/v1658180574/waleed.de/IMG_3855_2_iwf7s8.jpg"></div>
 
-Hi, I'm [Waleed](/about/), software engineer, entrepreneur and angel investor. Specialising in design and operations of large-scale e-commerce systems for more than a decade.
+Hi, I'm Waleed, software engineer, entrepreneur and angel investor. Specialising in design and operations of large-scale e-commerce systems for more than a decade.
 
 </section>
 
@@ -37,26 +38,22 @@ Today I work with businesses to help them make a meaningful impact within their 
 </section><section>
 
 ## Skills
-
-
+Engineering Managment, Programing, Software Architecture, BigData (Warehousing & Datalakes) Linux & Cloud Computing
 
 </section><section>
 
 ## Technology
+I have been primarily Programing with PHP & Python and bit of JavaScirpt for over a decade building web based e-commerce products.
 
-
+I embrace modern web frameworks and always enjoy to experiment by building side projects.  
 
 </section><section>
 
 ## Languages
 
-Based on many years of working experience in international companies I am fluent in business level **English** & **German**. **Urdu** is my mother tongue.
+Based on many years of working experience in international companies I am fluent in **English** & **German**. **Urdu** is my mother tongue.
 
 </section><section>
-
-## Recreation
-
-
 
 </section><footer>
 

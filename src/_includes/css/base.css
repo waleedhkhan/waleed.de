@@ -170,7 +170,6 @@ ul ::marker {
 ol {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    gap: var(--gap);
     list-style-position: inside;
     counter-reset: ordered-list;
 }
@@ -226,7 +225,14 @@ img {
     max-inline-size: 100%;
     max-block-size: 100%;
     block-size: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 4rem;
     -ms-interpolation-mode: bicubic;
+}
+
+.grayscale-image img {
+    filter: grayscale(1);
+    mix-blend-mode: multiply;
 }
 
 table {

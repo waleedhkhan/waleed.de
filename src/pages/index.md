@@ -33,10 +33,8 @@ I'm always up for a chat though, so feel free to get in touch!
 
 I'm always up for a chat though, so feel free to get in touch! [LinkedIn](https://www.linkedin.com/in/{{author.x.social.linkedin}}) and [Github](https://github.com/{{author.x.social.github}}). If you like the content I write on my blog you can consider [subscribing](/subscribe/) to my feed. 
 
-Learn more: 
-[about](/about/)
-[now](/now/)
-[uses](/uses/)
+## Learn more
+Learn more [about](/about/) me or check what i am working on [now](/now/) or check out the tools i [use](/uses/)
 
 </section><section>
 
