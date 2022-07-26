@@ -24,7 +24,7 @@ I'm always up for a chat though, so feel free to get in touch!
 ## Writing
 
 <nav>{%- for post in search.pages("post") | reverse -%}
-<a href="{{post.data.url}}">{{ post.data.title }}</a>{%- if loop.index !== loop.length -%}<br />{%- endif -%}
+<a  href="{{post.data.url}}">{{ post.data.title }}</a>{%- if loop.index !== loop.length -%}<br />{%- endif -%}
 {%- endfor -%}</nav>
 
 </section><section>
