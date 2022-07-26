@@ -7,7 +7,7 @@ and build with very minimal tech stack to reduce maintenance effort.
 ## Tech Stack
 Keeping it simple, its just pure HTML/CSS based components and the static pages are generated with [Lume](https://lume.land/) build on [Deno](https://deno.land/).
 
-**Why not fancy like NextJS, Svelte or Vue/Vite ?**
+**Why not somthing fancy like NextJS, Svelte or Vue/Vite ?**
 
 It’s inspired by other general-purpose static site generators, such as Jekyll and Eleventy, but it’s faster, simpler and easier to use and configure, besides being super flexible.
 
@@ -17,7 +17,7 @@ It’s inspired by other general-purpose static site generators, such as Jekyll 
 
 ## Deployment
 It runs on [CloudFlare Pages](https://pages.cloudflare.com/) by a simple deploy hock to the main branch.
-My DNS is hosted on CloudFlare which provides additional optimization and increase availability.   
+My DNS is managed by CloudFlare which provides additional optimization and increase availability.   
 
 Its free ! 
 ## Run Locally
@@ -57,7 +57,7 @@ Its free !
 
 
 ## Acknowledgement
-Design, Layout and minimalistic philosophy behind my website is inspired by these wonder full content creators which I have following over the years.
+Design, Layout and minimalistic philosophy behind my website is inspired by these wonder full content creators which I have been following over the years.
 
  - [Manu Moreale](https://manuelmoreale.com)
  - [Frank Chimero](https://frankchimero.com)

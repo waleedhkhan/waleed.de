@@ -3,7 +3,7 @@ url: /now/
 title: Now
 subtitle: What I'm currently doing
 description: What Im currently doing
-date: 2022-07-21
+date: 2022-07-27
 tags: now
 ---
 
@@ -15,10 +15,6 @@ tags: now
 
 </header><section>
 🏗️ Renewing Tech & Product for a price compare platform (preis.de) with over 400 Million offers and 50k Shops from all over Germany. 
-
-💰 Investing in early stage startups
- 
-
 
 </section><footer>
 
