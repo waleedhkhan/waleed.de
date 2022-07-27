@@ -43,9 +43,7 @@ Engineering Managment, Programing, Software Architecture, BigData (Warehousing &
 </section><section>
 
 ## Technology
-I have been primarily Programing with PHP & Python and bit of JavaScirpt for over a decade building web based e-commerce products.
-
-I embrace modern web frameworks and always enjoy to experiment by building side projects.  
+I have been Programing with PHP, Python and JavaScirpt for over a decade building large scale e-commerce systems.
 
 </section><section>
 

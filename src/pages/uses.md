@@ -20,9 +20,9 @@ On this page you will find what Hardware and Software I am currently using.
 </section><section>
 
 ## Hardware
-I have been a mac user for long time, it makes web/software dev setup so easy which makes it really hard to switch to somthing else.
+I have been a mac user for long time, it makes web/software dev setup so easy. Which makes it hard to switch to somthing else.
 
-I don't need much to be productive, i have spend most of career with a Macbook Air backed by lots of coffee and motivation but due to Covid, i got used of more ergonomics workspace. 
+I don't need much to be productive. I have spend most of career with a working while traveling with a Macbook Air. Due to covid lock downs I got used to of more ergonomics workspace.
 
 - Macbook Pro 16 (2019)
 - iPhone 11 
