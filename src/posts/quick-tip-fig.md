@@ -14,7 +14,7 @@ date: 2022-07-28
 
 ![Fig in Action](https://res.cloudinary.com/dm9gvqa1t/image/upload/v1659036268/waleed.de/Posts/Quick%20Tip%20-%20Autocomplete%20to%20any%20CLI%20tool/fig_bd0wgq.gif)
 
-Fig an amazing little utility which saved me lot of in past few months. Instaed of googling some less known Git or Docker command, it just autocomplete for you.
+Fig is a amazing little utility that saved me a lot in the past few months. Instead of googling some less-known Git or Docker command, it just autocompletes for you.
 
 Its just like Github Co-Pilot but for command-line.
 
