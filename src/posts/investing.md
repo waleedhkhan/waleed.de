@@ -34,7 +34,7 @@ Honestly, most investors don't do much. It's mostly the money and how it looks f
 - Answer any questions you have (things I like helping)
 - Give you access to a bunch of alive documents
 - Get you $100,000 in AWS credits
-- Get out of your way!##
+- Get out of your way!
 
 ## I love helping with
 - High-fidelity product design und development and high-level product strategy
