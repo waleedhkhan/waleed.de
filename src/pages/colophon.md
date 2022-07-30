@@ -43,14 +43,9 @@ I am hosting this website on Cloudflare Pages. Deployment process takes less the
 
 </section><section>
 
-## Build and Deploy
-I am hosting this website on Cloudflare Pages. Deployment process takes less then few minutes to setup with Github and comes with some great optimization.
-
-</section><section>
-
 ## Design
 
-I kept it simple and minimal to focused mainly on the content and readability. I am using [Signifier](https://klim.co.nz/retail-fonts/signifier/) as my primary Serif font.
+I kept it simple and minimal to focused mainly on the content and readability. I am using [Signifier](https://klim.co.nz/retail-fonts/signifier/) as my primary font.
 
 </section>
 
