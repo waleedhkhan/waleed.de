@@ -16,7 +16,7 @@ date: 2022-07-28
 
 Fig is a amazing little utility that saved me a lot in the past few months. Instead of googling some less-known Git or Docker command, it just autocompletes for you.
 
-Its just like Github Co-Pilot but for command-line.
+It's just like Github Co-Pilot but for command-line.
 
 - [fig.io](https://fig.io)
 
@@ -31,4 +31,3 @@ brew install fig
 <footer>
 
 {% include "links.njk" %}
-
