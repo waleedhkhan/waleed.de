@@ -23,7 +23,8 @@ tags:
 
 <section>
 ## Tech
-I build this site using [Lume](https://lume.land), Its a general-purpose static site generator, like Jekyll and Eleventy, but it’s faster, simpler and easier to use and configure, besides being super flexible.
+
+I build this site using [Lume](https://lume.land) Its a general-purpose static site generator, like Jekyll and Eleventy, but it’s faster, simpler and easier to use and configure, besides being super flexible.
 
 Frontend components are build with Plain CSS and [Nunjucks](https://mozilla.github.io/nunjucks/)
 
@@ -31,12 +32,14 @@ Frontend components are build with Plain CSS and [Nunjucks](https://mozilla.gith
 
 <section>
 ## Content
+
 All the content on this site is just bunch of markdown files. 
 
 </section>
 
 <section>
 ## Build and Deploy
+
 I am hosting this website on Cloudflare Pages. Deployment process takes less then few minutes to setup with Github and comes with some great optimization.
 
 </section>
@@ -50,6 +53,7 @@ I am hosting this website on Cloudflare Pages. Deployment process takes less the
 
 <section>
 ## Design
+
 I kept it simple and minimal to focused mainly on the content and readability. I am using [Signifier](https://klim.co.nz/retail-fonts/signifier/) as my primary Serif font.
 </section>
 
