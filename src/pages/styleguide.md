@@ -3,8 +3,7 @@ url: /styleguide/
 title: Styleguide
 subtitle: CSS test page
 description: Test Page for CSS styling
-date: 2021-09-18
-locale: zxx
+date: 2022-08-07
 ---
 
 <header>
