@@ -109,7 +109,7 @@ sup {
 
 a {
     color: var(--on-canvas--dim);
-    background: linear-gradient(to right,#ffd94d,#ffe68a);
+    background: linear-gradient(to right,#fff5ce,#ffe68a);
     background-size: 300% 40%;
     background-repeat: no-repeat;
     background-position: 0 100%;

@@ -4,10 +4,10 @@ Color Properties
 
 :root {
     --hue: 200;
-    --canvas: hsl(47deg 100% 89%);
-    --on-canvas: hsl(0deg 12% 30%);
-    --on-canvas--dim: hsl(0deg 12% 30%);
-    --on-canvas--mute: hsl(0deg 12% 30%);
+    --canvas: hsl(33deg 47% 96%);
+    --on-canvas: hsl(0deg 0% 0%);
+    --on-canvas--dim: hsl(0deg 0% 0%);
+    --on-canvas--mute: hsl(0deg 0% 0%);
     --on-canvas--link: hsl(231deg 100% 50%);
 
     --border: 1px solid var(--on-canvas--mute);
@@ -26,10 +26,10 @@ Color Properties
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --canvas: hsl(47deg 100% 89%);
-        --on-canvas: hsl(0deg 12% 30%);
-        --on-canvas--dim: hsl(0deg 12% 30%);
-        --on-canvas--mute: hsl(0deg 12% 30%);
+        --canvas: hsl(33deg 47% 96%);
+        --on-canvas: hsl(0deg 0% 0%);
+        --on-canvas--dim: hsl(0deg 0% 0%);
+        --on-canvas--mute: hsl(0deg 0% 0%);
     }
 }
 
