@@ -108,8 +108,8 @@ sup {
 
 a {
     color: var(--on-canvas--dim);
-    background: linear-gradient(to right,#fff5ce,#ffe68a);
-    background-size: 300% 40%;
+    background: linear-gradient(to right,hsl(231deg 29% 39%),#ffffff);
+    background-size: 100% 3%;
     background-repeat: no-repeat;
     background-position: 0 100%;
     transition-property: background-position;
@@ -228,7 +228,7 @@ img {
     max-inline-size: 100%;
     max-block-size: 100%;
     block-size: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: hsl(234deg 25% 11%);
     padding: 4rem;
     -ms-interpolation-mode: bicubic;
 }
