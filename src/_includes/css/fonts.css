@@ -36,31 +36,17 @@
   src: local(Arial);
 }
 
-@font-face {
-    font-family: "Signifier";
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    src: url(/assets/fonts/signifier-web-light.subset.woff2) format("woff2");
-  }
-  
-@font-face {
-    font-family: "Signifier";
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-    src: url(/assets/fonts/signifier-web-light-italic.subset.woff2) format("woff2");
-  }
   
 
 :root {
-    --text-stack: Signifier, Fallback, sans-serif;
+    --text-stack: Inter, Fallback, sans-serif;
     --text-settings: 'kern' 1, 'liga' 1, 'case' 1, 'dlig' 1, 'ss03' 1;
     --text-measure: 70ch;
     --text-size: max(1.1em, 1.1vw);
+    --h1-size: max(2em, 1.1vw);
     --text-height: 1.7;
     --text-spacing: -0.011em;
-    --text-serif-stack: Newsreader, var(--text-stack);
+    --text-serif-stack: Inter, var(--text-stack);
     --text-serif-size: 100%;
     --text-serif-height: 1.545;
     --text-serif-spacing: normal;
