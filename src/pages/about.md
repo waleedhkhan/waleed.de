@@ -18,7 +18,7 @@ tags: profile
 <section>
 
 <div class="grayscale-image">
-<img style="padding:6rem; background:#eee;" src="https://res.cloudinary.com/dm9gvqa1t/image/upload/v1658180574/waleed.de/IMG_3855_2_iwf7s8.jpg"></div>
+<img style="padding:6rem; background:#1b1d31;" src="https://res.cloudinary.com/dm9gvqa1t/image/upload/v1658180574/waleed.de/IMG_3855_2_iwf7s8.jpg"></div>
 
 Hi, I'm Waleed, software engineer, entrepreneur and angel investor. Specialising in design and operations of large-scale e-commerce systems for more than a decade.
 

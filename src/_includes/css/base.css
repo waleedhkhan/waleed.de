@@ -235,7 +235,7 @@ img {
 
 .grayscale-image img {
     filter: grayscale(1);
-    mix-blend-mode: multiply;
+    mix-blend-mode: luminosity;
 }
 
 table {
