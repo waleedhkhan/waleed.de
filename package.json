@@ -1,0 +1,52 @@
+{
+  "name": "waleed.de",
+  "version": "4.5.0",
+  "description": "Software engineer based in Berlin, specialized in designing and operations of large-scale e-commerce systems for more than a decade.",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.18",
+    "@11ty/eleventy-fetch": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "dotenv": "^16.0.1",
+    "eleventy-plugin-reading-time": "^0.0.1",
+    "markdown-it": "^13.0.0",
+    "markdown-it-external-links": "^0.0.6",
+    "markdown-it-named-headings": "^1.1.0",
+    "sass": "^1.56.1",
+    "simple-git": "^3.11.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard": "^26.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es2021": true
+    },
+    "extends": [
+      "airbnb-base"
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    }
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "scripts": {
+    "clean": "rm -rf _site .cache",
+    "dev": "npm run build:eleventy -- --serve --incremental --quiet & npm run build:css -- --watch",
+    "build": "npm run build:eleventy && npm run build:css",
+    "build:eleventy": "npx @11ty/eleventy",
+    "build:css": "sass --style=compressed src/site.scss:_site/site.css",
+    "lint": "npm run lint:stylelint && npm run lint:eslint",
+    "lint:stylelint": "stylelint ./src/**/*.css",
+    "lint:eslint": "eslint ./src/**/*.js"
+  }
+}

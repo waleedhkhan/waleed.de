@@ -1,0 +1,64 @@
+html {
+  font-size: 12px;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  font-family: var(--text-body);
+  font-feature-settings: "case" on;
+  margin: var(--space-large) 0 0 0;
+  padding: 0 var(--space-small);
+  text-rendering: optimizelegibility;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: var(--color-primary);
+}
+
+figure {
+  margin: 0;
+}
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    padding: 0 var(--space-default);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    padding: 0 5vw;
+    margin-top: var(--space-xx-large);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 1.15vw;
+  }
+
+  body {
+    padding: 0 15vw;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 1vw;
+  }
+}

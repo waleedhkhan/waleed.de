@@ -1,0 +1,36 @@
+.sidenote {
+  position: relative;
+  max-width: 30ch;
+}
+
+.sidenote img {
+  margin-bottom: var(--space-default);
+}
+
+.sidenote em {
+  font-family: var(--text-mono);
+  font-style: normal;
+  font-size: var(--text-size-small);
+  margin-right: var(--space-tiny);
+}
+
+.sidenote small {
+  display: block;
+  border-left: var(--border-default);
+  padding-left: var(--space-default);
+}
+
+.sidenote + p {
+  display: none;
+}
+
+.sidenote + p:last-child {
+  display: initial;
+  margin-bottom: var(--space-xx-large);
+}
+
+@media screen and (min-width: 600px) {
+  .sidenote small {
+    position: absolute;
+  }
+}

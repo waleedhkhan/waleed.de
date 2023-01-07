@@ -1,0 +1,76 @@
+{
+  "experience": [
+    {
+      "title": "CEO",
+      "period": "2020—Present",
+      "employer": "Preis.de, Berlin"
+    },
+
+    {
+      "title": "Technology Consultant",
+      "period": "2007—Present",
+      "employer": "Trotec GmbH, Berlin"
+    },
+
+    {
+      "title": "Accelerator Builder",
+      "period": "2018—2020",
+      "employer": "Trotec GmbH, Berlin"
+    },
+    {
+      "title": "CTO",
+      "period": "2016—2018",
+      "employer": "Dr. Förster AG, Berlin"
+    },
+    {
+      "title": "Founder & CTO",
+      "period": "2012—2015",
+      "employer": "23 Digital Concepts GmbH, Vienna"
+    },
+    
+    {
+      "title": "Head of E-Commence",
+      "period": "2012—2013",
+      "employer": "P&P Medien, Innsbruck"
+    },
+    {
+      "title": "Engineering Manager",
+      "period": "2010—2012",
+      "employer": "VIP Sportnahrung GmbH, Vienna"
+    },
+    {
+      "title": "Full-stack Magento Developer",
+      "period": "2008—2010",
+      "employer": "Blickvang, Vienna"
+    },
+
+    {
+      "title": "Software Engineer",
+      "period": "2006—2008",
+      "employer": "SAFA Academy, Vienna"
+    }
+
+
+  ],
+  "clients": [
+    "Swarovski",
+    "Douglas",
+    "Paypal",
+    "Fineartmultiple",
+    "Stadt Wien",
+    "Gardoré",
+    "Promove TM GmbH"
+  ],
+  "skills": [
+    "Programming",
+    "Product Design",
+    "Software architecture",
+    "Technical Leadership",
+    "E-Commerce"  
+  ],
+  "recognition": [
+    {
+ 
+    }
+  ]
+}

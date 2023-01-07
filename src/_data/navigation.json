@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "name": "General",
+      "pages": [
+        {
+          "name": "About me",
+          "url": "/about",
+          "description": "about me."
+        }, 
+          {
+        "name": "Email",
+        "url": "mailto:info@waleed.de"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/askwaleedkhan"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/waleedhk/"
+      },
+       {
+        "name": "Impressum",
+        "url": "/imprint"
+      }
+      ]
+    }
+    
+  ]
+
+}

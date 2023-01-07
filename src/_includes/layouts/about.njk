@@ -1,0 +1,85 @@
+---
+layout: layouts/default
+title: About
+---
+
+<header class="flow | gap-x-large">
+  <h1>About</h1>
+  <p class="measure">
+    Professionally, I have held technology & business leadership positions serving a variety of industries across Europe.
+
+As a consultant, I have been working directly with organisations to build clear, coherent and scalable products. My work is recognized by several large organizations, including eBay, PayPal and Adobe, among others.
+  </p>
+</header>
+
+{% set toc = ["Now", "Experience", "Clients", "Skills", "Background"] %}
+{% include "components/toc.njk" %}
+
+<article class="gap-large">
+  <h2 id="now">Now</h2>
+  <figure class="columns flow | gap-xx-large">
+  {% image "d1496bc7-e903-4152-80f9-9ae54f63ac1f", "2022, Berlin" %}
+  <figcaption class="measure | push-down leading-crushed">
+    <small>
+      <strong class="tertiary-text">Credits to my wife. Taken 2022 in near brandenburg tor in berlin.</strong>
+      
+    </small>
+  </figcaption>
+</figure>
+
+  <p class="measure">
+   
+    In recent years I’ve become more and more interested in the methods of leading teams and how to work smarter. That is, how the well-being of each team member is kept central while the work can progress in a smooth way.
+    
+   Today I work with businesses to help them make a meaningful impact within their industry. I bring a critical eye to the development process, and advocate renewal over wholesale reinvention. 
+</article>
+
+<article class="columns | gap-xx-large">
+  <div>
+    {% set experience = cv.experience %}
+    <h3 id="experience" class="subtitle">Experience</h3>
+    <ul class="flow">
+      {% for job in experience %}
+      <li>
+        <p class="tertiary-text">{{ job.period }}</p>
+        <p>{{ job.title }}</p>
+        <p><em>{{ job.employer }}</em></p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h3 id="clients" class="subtitle">Clients</h3>
+    <ul>
+      {% for client in cv.clients %}
+      <li>{{ client }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h3 id="skills" class="subtitle">Skills</h3>
+    <ul>
+      {% for skill in cv.skills %}
+      <li>{{ skill }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <!--<div>
+    <h3 id="recognition" class="subtitle">Recognition</h3>
+    <ul class="flow">
+      {% set awards = cv.recognition %}
+      {% for award in awards %}
+      <li>
+        <a href="{{ award.url }}" target="_blank" rel="noopener noreferrer">
+          {{ award.source }}
+        </a>
+        <p>{{ award.date }} </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>--> 
+</article>
+
+<article class="markdown | flow gap-xx-large" id="about">
+  {{ content | safe }}
+</article>

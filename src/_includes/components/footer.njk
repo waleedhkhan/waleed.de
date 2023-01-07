@@ -1,0 +1,26 @@
+<footer class="gap">
+  <div>
+    <h3 class="gap-inline">Learn More</h3>
+    <ul class="tertiary-text">
+      {% for page in navigation.routes[0].pages %}
+      <li class="gap-inline">
+        <a href="{{ page.url }}">{{ page.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</footer>
+
+<footer class="columns">
+  <div>
+    <p class="tertiary-text">
+      <small>&copy; {{ dates.currentYear() }}, waleed.de</small>
+    </p>
+  </div>
+  <div class="col-2">
+    <p class="horizontal | tertiary-text">
+
+    </p>
+  </div>
+</footer>

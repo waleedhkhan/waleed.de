@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+  .movies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .movies {
+    --cols: 6;
+
+    grid-gap: var(--space-default);
+  }
+}
+
+@media (max-width: 900px) {
+  .shows {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .shows {
+    --cols: 6;
+
+    grid-gap: var(--space-default);
+  }
+}
+

@@ -1,0 +1,42 @@
+---json
+{
+  "permalink": "rss.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": " Waleed H.Khan | Personal Website",
+    "subtitle": "Software engineer based in Berlin, specialized in designing and operations of large-scale e-commerce systems for more than a decade.",
+    "url": "https://www.waleed.de/post/",
+    "feedUrl": "https://www.waleed.de.de/rss.xml",
+    "author": {
+      "name": "Waleed H.Khan",
+      "email": "info@waleed.de"
+    }
+  }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{{ metadata.feedUrl }}" rel="self" />
+  <link href="https://www.waleed.de" />
+  <updated>{{ collections.post[0].data.date | dateToRfc3339 }}</updated>
+  <id>https://www.waleed.de</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for post in collections.post | reverse %}
+    {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
+    <entry>
+      <title>{{ post.data.title }}</title>
+      <link href="{{ absolutePostUrl }}" />
+      <updated>{{ post.data.date | dateToRfc3339 }}</updated>
+      <id>{{ absolutePostUrl }}</id>
+      <summary>{{ post.data.description }}</summary>
+      <content type="html">
+        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+      </content>
+    </entry>
+  {%- endfor %}
+</feed>

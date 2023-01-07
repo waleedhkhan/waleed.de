@@ -1,0 +1,44 @@
+---
+title: Software Engineer
+description: "Software engineer based in Berlin, specialized in designing and operations of large-scale e-commerce systems for more than a decade."
+---
+
+{% set pageTitle = post.fields.title if post.fields.title else title %}
+{% set pageDescription = post.fields.description if post.fields.description else description %}
+
+<!DOCTYPE html>
+<html lang="en" class="{{ theme }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waleed H.Khan | {{ pageTitle }}</title>
+
+    <meta content="Waleed H.Khan | {{ pageTitle }}" name="title" />
+    <meta content="{{ pageDescription }}" name="description" />
+
+    <meta content="Waleed H.Khan | {{ pageTitle }}" name="twitter:title" />
+    <meta content="{{ pageDescription }}" name="twitter:description" />
+
+    <meta content="{{ pageDescription }}" property="og:description" />
+    <meta content="en" property="og:locale" />
+
+    <meta name="generator" content="{{ eleventy.generator }}">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>">
+
+    <link rel="preconnect" href="https://ucarecdn.com" />
+    <link rel="preconnect" href="https://dr.savee-cdn.com" />
+    <link rel="preconnect" href="https://a.ltrbxd.com" />
+
+    <link rel="stylesheet" href="/site.css" />
+  </head>
+  <body>
+    {% if page.url !== "/" %}
+      <a class="tertiary-text | inline-block gap-large" href="/">&larr; Back</a>
+    {% endif %}
+    <main>
+      {{ content | safe }}
+    </main>
+    {% include "components/footer.njk" %}
+  </body>
+</html>

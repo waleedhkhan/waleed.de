@@ -1,0 +1,27 @@
+<details class="tertiary-text | gap-x-large">
+  <summary class="gap">Recent changes</summary>
+  <ol class="flow gap">
+    {% for commit in commits %}
+    <li>
+      <p>#<code>{{ commit.hash }}</code></p>
+      <a href="https://github.com/waleedhkhan/waleed.de/{{ commit.hash }}"
+         target="_blank"
+         rel="noreferrer"
+      >
+        {{ commit.message }}
+      </a>
+      <p>
+        <time datetime="{{ commit.date }}">
+          {{ commit.date | formatDate }}
+        </time>
+      </p>
+    </li>
+    {% endfor %}
+  </ol>
+  <a href="hhttps://github.com/waleedhkhan/waleed.de/commits"
+     target="_blank"
+     rel="noopener noreferrer"
+  >
+    See all changes
+  </a>
+</details>

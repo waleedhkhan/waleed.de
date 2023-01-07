@@ -1,0 +1,40 @@
+@font-face {
+  font-family: EBGaramond;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://ucarecdn.com/9646fb55-74a1-4484-92fb-700e64b8324d/") format("woff2");
+
+}
+
+@font-face {
+  font-family: EBGaramond;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://ucarecdn.com/0e48b841-d7cf-403d-bb9c-ef717ff523e1/") format("woff2");
+}
+
+@font-face {
+  font-family: EBGaramond;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://ucarecdn.com/ee5dcccd-4b82-4937-96b5-6e4588f0c541/") format("woff2");
+}
+
+@font-face {
+  font-family: Pitch;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://ucarecdn.com/9d76fc59-b129-4e46-83bd-5beb9a97cd5b/") format("woff2");
+}
+
+@font-face {
+  font-family: Signifier;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://ucarecdn.com/5fb6001a-53d1-4977-a914-2ca320a858c9/") format("woff2");
+}
