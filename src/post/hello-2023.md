@@ -5,7 +5,7 @@ description: >
 date: 2023-01-05
 ---
 
-I was bit busy last year [because of work](https://youtu.be/qd4T-sP1EsY) and prolonged COVID illness at the end of the year. After taking time off work I finally gathered enough energy to rethink my website. 
+I was bit [busy](https://youtu.be/qd4T-sP1EsY) last year because of work and prolonged COVID illness at the end of the year. After taking time off work I finally gathered enough energy to rethink my website. 
 <br><br>
 Reading [lot of blogs](https://ooh.directory) inspired me to rebuild my personal website into a slowly growing digital garden.
 <br><br>
