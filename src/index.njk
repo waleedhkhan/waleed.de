@@ -39,113 +39,119 @@ title: Personal Website
     </ul>
   </header>
 
- {% set posts = collections.post %}
- {% include "components/posts.njk" %}
-
+  {% set posts = collections.post %}
+  {% include "components/posts.njk" %}
 
 </article>
 
 <article id="listening" class="gap-xx-large">
   <header class="gap-large">
     <h2>Reading</h2>
-    </p>
-  </header>
- 
-  <section class="columns" data-cols="2">
-    <div>
-      <h3 class="subtitle">Books I’ve recently discovered</h3>
-      <ol>
-       {%- for book in books -%}
-        <li class="border">
-          <a href="{{ book.volumeInfo.infoLink }}" target="_blank" rel="noreferrer noopener">
-            {{ book.volumeInfo.title }} - {{ book.volumeInfo.authors }}
-          </a>
-          <p class="gap-small"><small>{{ book.volumeInfo.subtitle }}</small></p>
-        </li>
-        {% endfor %}
-      </ol>
-    </div>
-    <div>
-      <h3 class="subtitle">Books I like the idea of having read</h3>
-      <ol>
-       {%- for bookshelve in bookshelves -%}
-        <li class="border">
-          <a href="{{ bookshelve.volumeInfo.infoLink }}" target="_blank" rel="noreferrer noopener">
-            {{ bookshelve.volumeInfo.title }} - {{ bookshelve.volumeInfo.authors }}
-          </a>
-          <p class="gap-small"><small>{{ bookshelve.volumeInfo.subtitle }}</small></p>
-        </li>
-        {% endfor %}
-      </ol>
+  </p>
+</header>
 
-    </div>
-  </section>
+<section class="columns" data-cols="2">
+  <div>
+    <h3 class="subtitle">Books I’ve read</h3>
+    <ol>
+      {%- for book in books-%}
+        {% if loop.index0 < 10 %}
+
+          <a href="{{ book.volumeInfo.infoLink }}" target="_blank" rel="noreferrer noopener">
+            {{ book.volumeInfo.title }}
+          </a>
+
+          <p class="gap-small">
+            <small>{{ book.volumeInfo.authors }}</small>
+          </p>
+
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+</div>
+<div>
+  <h3 class="subtitle">Books I like the idea of having read</h3>
+  <ol>
+    {%- for bookshelve in bookshelves -%}
+      {% if loop.index0 < 10 %}
+
+        <li>
+          <a href="{{ bookshelve.volumeInfo.infoLink }}" target="_blank" rel="noreferrer noopener">
+            {{ bookshelve.volumeInfo.title }}
+          </a>
+          <p class="gap-small" maxlength="2">
+            <small>{{ bookshelve.volumeInfo.authors }}</small>
+          </p>
+
+        </li>
+      {% endif %}
+
+    {% endfor %}
+  </ol>
+
+</div>
+</section>
 </article>
 
 <article id="watching" class="gap-x-large">
-  
-  <header class="gap-large">
-    <h2>Watching</h2>
-    <p class="measure">Recently watched tv shows</p>
 
-  </header>
+<header class="gap-large">
+<h2>Watching</h2>
+<p class="measure">Recently watched tv shows</p>
 
-   <ol class="shows | columns">
-    {%- for show in shows -%}
-    <li>
-      <img src="https://image.tmdb.org/t/p/original/{{ show.poster_path }}" width="500" height="500" loading="lazy" alt="{{ show.name }}" title="{{ show.name }}" class="gap" />
-      <div class="flow | tertiary-text">
-        <p>{{ show.name }}</p>
-      </div>
-    </li>
-    {% endfor %}
-  </ol>
+</header>
+
+<ol class="shows | columns">
+{%- for show in shows -%}
+  <li>
+    <img src="https://image.tmdb.org/t/p/original/{{ show.poster_path }}" width="500" height="500" loading="lazy" alt="{{ show.name }}" title="{{ show.name }}" class="gap"/>
+    <div class="flow | tertiary-text">
+      <p>{{ show.name }}</p>
+    </div>
+  </li>
+{% endfor %}
+</ol>
 
 </article>
 
 <article id="watching" class="gap-xx-large">
-  <header class="gap-large"> 
-    <p class="measure">Recently watched movies</p>
+<header class="gap-large">
+<p class="measure">Recently watched movies</p>
 
-  </header>
+</header>
 
-
-  <ol class="movies | columns">
-    {%- for movie in movies -%}
-    <li>
-      <img src="https://image.tmdb.org/t/p/original/{{ movie.poster_path }}" width="500" height="500" loading="lazy" alt="{{ movie.name }}" title="{{ movie.name }}" class="gap" />
-      <div class="flow | tertiary-text">
-        <p>{{ movie.title }}</p>
-      </div>
-    </li>
-    {% endfor %}
-  </ol>
-
+<ol class="movies | columns">
+{%- for movie in movies -%}
+  <li>
+    <img src="https://image.tmdb.org/t/p/original/{{ movie.poster_path }}" width="500" height="500" loading="lazy" alt="{{ movie.name }}" title="{{ movie.name }}" class="gap"/>
+    <div class="flow | tertiary-text">
+      <p>{{ movie.title }}</p>
+    </div>
+  </li>
+{% endfor %}
+</ol>
 
 </article>
-
-
 
 <article id="scrapbook" class="flow | gap-xx-large">
-  <header>
-    <h2>Gallery</h2>
-    <p class="measure gap">
+<header>
+<h2>Gallery</h2>
+<p class="measure gap">
       Photos I recently shared on the web
     </p>
-  </header>
+</header>
 
-  <div class="gallery | masonry">
-    {% for item in scrapbook %}
-    <figure>
-      <a href="{{ item.pageURL if item.pageURL else 'https://savee.it' + item.url }}">
-        <img src="{{ item.asset.image.thumbnail }}" loading="lazy" width="{{ item.asset.image.width }}"
-          height="{{ item.asset.image.height }}" alt="{{ item.name }}" />
-      </a>
-    </figure>
-    {% endfor %}
-  </div>
+<div class="gallery | masonry">
+{% for item in scrapbook %}
+  <figure>
+    <a href="{{ item.pageURL if item.pageURL else 'https://savee.it' + item.url }}">
+      <img src="{{ item.asset.image.thumbnail }}" loading="lazy" width="{{ item.asset.image.width }}"
+          height="{{ item.asset.image.height }}" alt="{{ item.name }}"/>
+    </a>
+  </figure>
+{% endfor %}
+</div>
 </article>
 
-
 <hr class="gap-x-large">
-

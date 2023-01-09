@@ -13,6 +13,7 @@ module.exports = function(eleventy) {
   const stars = require("./src/_filters/stars");
   eleventy.addFilter("formatDate", date);
   eleventy.addFilter("starRating", stars);
+  
 
   // Custom shortcodes
   const responsiveImage = require("./src/_shortcodes/responsiveImage");
