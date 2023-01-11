@@ -143,6 +143,7 @@ title: Personal Website
 </header>
 
 <div class="gallery | masonry">
+{% for item in scrapbook | random %}
   <figure>
     <a href="{{ item.pageURL if item.pageURL else 'https://savee.it' + item.url }}">
       <img src="{{ item.asset.image.thumbnail }}" loading="lazy" width="{{ item.asset.image.width }}"
