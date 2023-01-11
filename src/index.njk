@@ -11,7 +11,7 @@ title: Personal Website
   </p>
 
   <p class="measure">
-    <b>#whoami:</b> I am a software engineer based in Berlin, specialized in designing and operations of large-scale e-commerce ecosystems for more than a decade... <a href="/about">read more.</a>
+    <b>#whoami:</b> I am a software engineer based in Berlin, specialized in designing and operations of large-scale e-commerce systems for more than a decade... <a href="/about">read more.</a>
   </p>
 
   <p class="measure">
@@ -136,14 +136,13 @@ title: Personal Website
 
 <article id="scrapbook" class="flow | gap-xx-large">
 <header>
-<h2>Gallery</h2>
+<h2>Photo Wall</h2>
 <p class="measure gap">
       Photos I recently shared on the web
     </p>
 </header>
 
 <div class="gallery | masonry">
-{% for item in scrapbook %}
   <figure>
     <a href="{{ item.pageURL if item.pageURL else 'https://savee.it' + item.url }}">
       <img src="{{ item.asset.image.thumbnail }}" loading="lazy" width="{{ item.asset.image.width }}"
