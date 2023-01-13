@@ -12,7 +12,7 @@ I was born in 1988 in Karachi, a city of 200 million people in Pakistan.  I spen
   6 year old me, probably watching tv.
 {% endsidenote %}
 
-In 2005, I got my first gig to build a large web portfolio for a film production company. They need a backend to manage a large video library and showcase it on their website. As the only developer, I used Joomla as a content management system and had to learn it fast while improving my programming & product development skills.
+In 2005, I got my first gig to build a large web portfolio for a film production company. They needed a backend to manage a large video library and showcase it on their website. As the only developer, I used Joomla as a content management system and had to learn it fast while improving my programming & product development skills.
 
 Dealing with a large open-source codebase like Joomla was a pain. But at the same time, it gave me a lot of insights on how to navigate around complexity and focus on the outcome without knowing every single bit about the system.
 
