@@ -62,3 +62,53 @@ figure {
     font-size: 1vw;
   }
 }
+
+.visually-hidden {
+  clip: rect(0 0 0 00);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+
+}
+
+.color-picker > fieldset {
+  border: 0;
+  display: flex;
+  gap: 0.5rem;
+  width: fit-content;
+  padding: 0.5rem;
+  margin-inline: auto;
+  float:right;
+  background: hsl(0deg 0% 88% / 22%);
+  border-radius: 20px;
+  
+}
+
+.color-picker input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 1rem;
+  height: 1rem;
+  box-shadow: 0 0 0 2px var(--radio-color, currentColor);
+  outline-offset: 3px;
+  border-radius: 50%;
+  border: solid 1px #eee;
+
+}
+
+.color-picker input[type="radio"]:checked {
+  background-color: var(--radio-color);
+}
+
+.color-picker input[type="radio"]#light {
+  --radio-color: #e6dec8;
+}
+.color-picker input[type="radio"]#yellow {
+  --radio-color: #433333;
+}
+.color-picker input[type="radio"]#blue {
+  --radio-color: #4e5b66;
+}

@@ -1,0 +1,47 @@
+<form class="color-picker" action="">
+  <fieldset>
+    <legend class="visually-hidden">Pick a color scheme</legend>
+    <label for="light" class="visually-hidden">Light</label>
+    <input type="radio" name="theme" id="light" checked>
+
+    <label for="blue" class="visually-hidden">Pink theme</label>
+    <input type="radio" id="blue" name="theme">
+
+    <label for="yellow" class="visually-hidden">Dark theme</label>
+    <input type="radio" id="yellow" name="theme">
+  </fieldset>
+</form>
+ 
+<script>
+
+ const colorThemes = document.querySelectorAll('[name="theme"]');
+
+// store theme
+const storeTheme = function (theme) {
+  localStorage.setItem("theme", theme);
+};
+
+// set theme when visitor returns
+const setTheme = function () {
+  const activeTheme = localStorage.getItem("theme");
+  colorThemes.forEach((themeOption) => {
+    if (themeOption.id === activeTheme) {
+      themeOption.checked = true;
+    }
+  });
+  // fallback for no :has() support
+  document.documentElement.className = activeTheme;
+};
+
+colorThemes.forEach((themeOption) => {
+  themeOption.addEventListener("click", () => {
+    storeTheme(themeOption.id);
+    // fallback for no :has() support
+    document.documentElement.className = themeOption.id;
+  });
+});
+
+document.onload = setTheme();
+
+
+  </script>   
