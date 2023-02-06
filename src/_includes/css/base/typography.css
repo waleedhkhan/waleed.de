@@ -26,6 +26,7 @@ h3 {
   text-decoration: none;
   margin: 0 0 var(--space-large);
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .subtitle {

@@ -8,11 +8,12 @@ body {
   background-color: var(--color-bg);
   color: var(--color-primary);
   font-family: var(--text-body);
-  font-feature-settings: "case" on;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   margin: var(--space-large) 0 0 0;
   padding: 0 var(--space-small);
   text-rendering: optimizelegibility;
   line-height: 1.5;
+  letter-spacing: -0.004em;
 }
 
 img {
@@ -38,7 +39,7 @@ figure {
 
 @media screen and (min-width: 600px) {
   html {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   body {

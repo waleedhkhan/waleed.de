@@ -1,27 +1,20 @@
 @font-face {
-  font-family: EBGaramond;
+  font-family: Inter;
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("https://ucarecdn.com/9646fb55-74a1-4484-92fb-700e64b8324d/") format("woff2");
+  src: url("https://ucarecdn.com/cfc91a0b-4da2-4a7b-8e1f-c38edf190c6f/Intervar.woff2") format("woff2");
 
 }
 
 @font-face {
-  font-family: EBGaramond;
+  font-family: Inter;
   font-weight: 400;
   font-style: italic;
   font-display: swap;
-  src: url("https://ucarecdn.com/0e48b841-d7cf-403d-bb9c-ef717ff523e1/") format("woff2");
+  src: url("https://ucarecdn.com/5f7511c8-cbf2-45a8-9098-f6178225d90f/Interitalicvar.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: EBGaramond;
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://ucarecdn.com/ee5dcccd-4b82-4937-96b5-6e4588f0c541/") format("woff2");
-}
 
 @font-face {
   font-family: Pitch;
@@ -33,8 +26,8 @@
 
 @font-face {
   font-family: Signifier;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url("https://ucarecdn.com/5fb6001a-53d1-4977-a914-2ca320a858c9/") format("woff2");
+  src: url("https://ucarecdn.com/e2be1c78-f71b-4a2b-b72d-0fbeb7786aca/InriaSansBold.woff") format("woff2");
 }
