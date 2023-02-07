@@ -5,7 +5,7 @@ layout: layouts/about
 ## Background
 {% image "0cf5c0e8-a12d-45d2-a39e-93f8f6e626fd", "Karachi, Pakistan" %}
 
-I was born in 1988 in Karachi, a city of 200 million people in Pakistan.  I spent most of my early childhood with my family in Karachi and in the early 2000s we permanently settled in Vienna, Austria. 
+I was born in 1988 in Karachi, a city of 20+ million people in Pakistan. I spent most of my early childhood with my family in Karachi and in the early 2000s we permanently settled in Vienna, Austria. 
 
 {% sidenote 1 %}
   {% image "d76d6acb-8cc3-4c4a-aa38-1f6442367e7c", "Photo of 6 year old Waleed", "small" %}

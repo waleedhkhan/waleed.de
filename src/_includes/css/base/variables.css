@@ -13,8 +13,8 @@
   --text-size-small: 0.85rem;
   --text-weight-normal: 400;
   --text-weight-bold: 600;
-  --text-display: "Signifier", "Georgia", "Times New Roman", "Times", serif;
-  --text-body: "Inter", "Georgia", sans-serif;
+  --text-display: "Oswald", "Georgia", "Times New Roman", "Times", serif;
+  --text-body: "Inter", sans-serif;
   --text-mono: "Pitch", "Monaco", "Courier New", "Courier", monospace;
   --text-leading-default: 1.5;
   --text-leading-heading: 1.3;
