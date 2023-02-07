@@ -114,7 +114,7 @@ title: Personal Website
   <li>
     <img src="https://image.tmdb.org/t/p/original/{{ show.poster_path }}" width="500" height="500" loading="lazy" alt="{{ show.name }}" title="{{ show.name }}" class="gap"/>
     <div class="flow | tertiary-text">
-      <p>{{ show.name }}</p>
+      <p>{{ show.name }}{{ show.original_title}}</p>
     </div>
   </li>
 {% endfor %}
