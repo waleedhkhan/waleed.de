@@ -24,8 +24,7 @@ h2 {
   line-height: var(--text-leading-heading);
   text-decoration: none;
   margin: 0 0 var(--space-large);
-  font-weight: 900;
-  letter-spacing: -0.7px;
+  font-weight: 800;
   text-transform: uppercase;
 }
 h3 {
