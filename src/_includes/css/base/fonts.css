@@ -14,6 +14,14 @@
   src: url("https://ucarecdn.com/5f7511c8-cbf2-45a8-9098-f6178225d90f/Interitalicvar.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: Cosmo;
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  src: url("https://ucarecdn.com/dc597491-d486-42dd-a41b-01d1d1abc95b/CosmoRegular.woff") format("woff");
+}
 
 @font-face {
   font-family: Pitch;
