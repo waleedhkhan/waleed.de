@@ -1,7 +1,7 @@
 ---
 title: Bridging the Gap - Simplifying Your CTO Selection Journey
 description: >
-  I can help you pick a CTO or a technical Co-founder (now officially)
+  Guiding You in Selecting Your Ideal CTO or Technical Co-Founder
 date: 2023-06-25
 ---
 
@@ -28,3 +28,5 @@ A typical CTO hiring process can span 6-12 months and rack up to 100K in recruit
 <br><br>
 
 I'm still exploring the best pricing model for this service. However, I anticipate letting the market decide the value of this service, ranging between 5-10k€.
+<br><br>
+**<a target="_blank" href="https://calendly.com/waleedhkhan/cto-selection-process-kick-off?month=2023-06">Book a Free Assessment </a>**
