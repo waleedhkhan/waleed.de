@@ -29,4 +29,4 @@ A typical CTO hiring process can span 6-12 months and rack up to 100K in recruit
 
 I'm still exploring the best pricing model for this service. However, I anticipate letting the market decide the value of this service, ranging between 5-10k€.
 <br><br>
-**<a target="_blank" href="https://calendly.com/waleedhkhan/cto-selection-process-kick-off?month=2023-06">Book a Free Assessment </a>**
+**<a target="_blank" href="https://calendly.com/waleedhkhan/cto-selection-process-kick-off">Book a Free Assessment </a>**
