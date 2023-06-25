@@ -4,8 +4,14 @@ title: Imprint
 
 ---
 
-Responsible for all content accordant §55 paragraph 2 RStV is Waleed Hussain.
+Responsible for all content accordant §55 paragraph 2 RStV is
 
+Waleed Hussain <br>
+Beuthstrasse 13<br> 
+10117 Berlin<br>
+<br> <br>
+## Contact
+E-Mail: info@waleed.de
 <br> <br>
 
 ## Disclaimer
